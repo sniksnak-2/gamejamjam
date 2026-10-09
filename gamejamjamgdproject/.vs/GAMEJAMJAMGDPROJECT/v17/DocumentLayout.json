@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\",
+  "WorkspaceRootPath": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\emers\\onedrive\\documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\emers\\onedrive\\documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\emers\\onedrive\\documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Firstscriptisgoingtoberlygood.cs",
-              "DocumentMoniker": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
-              "RelativeDocumentMoniker": "Firstscriptisgoingtoberlygood.cs",
-              "ToolTip": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
-              "RelativeToolTip": "Firstscriptisgoingtoberlygood.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Title": "slotsA.cs",
+              "DocumentMoniker": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
+              "RelativeDocumentMoniker": "slotsA.cs",
+              "ToolTip": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
+              "RelativeToolTip": "slotsA.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-09T22:05:09.739Z",
+              "WhenOpened": "2026-10-09T22:30:54.993Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Firstscriptisgoingtoberlygood.cs",
+              "DocumentMoniker": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
+              "RelativeDocumentMoniker": "Firstscriptisgoingtoberlygood.cs",
+              "ToolTip": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\csharp stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
+              "RelativeToolTip": "Firstscriptisgoingtoberlygood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T22:05:09.739Z"
             }
           ]
         }
