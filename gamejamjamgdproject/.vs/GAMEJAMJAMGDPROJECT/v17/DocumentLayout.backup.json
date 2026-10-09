@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\",
+  "WorkspaceRootPath": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\emers\\onedrive\\documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\jaime\\onedrive\\desktop\\gamejamjam\\gamejamjamgdproject\\firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:firstscriptisgoingtoberlygood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Firstscriptisgoingtoberlygood.cs",
-              "DocumentMoniker": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
+              "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
               "RelativeDocumentMoniker": "Firstscriptisgoingtoberlygood.cs",
-              "ToolTip": "C:\\Users\\emers\\OneDrive\\Documents\\codingingeneralig\\c# stuff\\gamejamjam\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
+              "ToolTip": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\Firstscriptisgoingtoberlygood.cs",
               "RelativeToolTip": "Firstscriptisgoingtoberlygood.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T22:05:09.739Z",
               "EditorCaption": ""
