@@ -1,8 +1,0 @@
-game
-jam
-j  am
-jamajmajjmajjmajmajmaj
-for i in range(3)
-  print("jam")
-  print("game")
-print(":3")
