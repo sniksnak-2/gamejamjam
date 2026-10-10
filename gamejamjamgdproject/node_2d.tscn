@@ -19,4 +19,4 @@ offset_right = 805.0
 offset_bottom = 206.0
 text = "GAMBA!!!!"
 
-[connection signal="pressed" from="Button" to="SlotsA" method="SlotsArray"]
+[connection signal="pressed" from="Button" to="SlotsA" method="CallSlots"]
