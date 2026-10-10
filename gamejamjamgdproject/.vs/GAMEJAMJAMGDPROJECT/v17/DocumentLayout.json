@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\Camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:slotsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|c:\\users\\jaime\\onedrive\\desktop\\gamejamjam\\gamejamjamgdproject\\camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{499BD2FC-9564-4076-9A7B-57D5D4665CF5}|gamejamjamgdproject.csproj|solutionrelative:camera2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Camera2d.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\Camera2d.cs",
               "RelativeDocumentMoniker": "Camera2d.cs",
@@ -39,13 +39,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "slotsA.cs",
               "DocumentMoniker": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
               "RelativeDocumentMoniker": "slotsA.cs",
               "ToolTip": "C:\\Users\\jaime\\OneDrive\\Desktop\\gamejamjam\\gamejamjamgdproject\\slotsA.cs",
               "RelativeToolTip": "slotsA.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-09T22:30:54.993Z",
               "EditorCaption": ""

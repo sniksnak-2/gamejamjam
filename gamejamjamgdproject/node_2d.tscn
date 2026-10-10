@@ -25,14 +25,6 @@ text = "GAMBA!!!!"
 position = Vector2(576, 324)
 script = ExtResource("3_epypp")
 
-[node name="Icon2" type="Sprite2D" parent="." unique_id=1261106887]
-position = Vector2(313, -183)
-texture = ExtResource("1_wtcfe")
-
-[node name="Icon3" type="Sprite2D" parent="." unique_id=1708022335]
-position = Vector2(559, -364)
-texture = ExtResource("1_wtcfe")
-
 [node name="Button2" type="Button" parent="." unique_id=287964059]
 offset_left = 826.0
 offset_top = 316.0
