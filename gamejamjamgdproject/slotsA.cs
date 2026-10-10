@@ -8,7 +8,8 @@ public partial class slotsA : Node2D
 	{
 		GD.Print("Hello World");
 		
-	}
+	} 
+    // what i want is code that will turn a given array into an array with 
     public List<string> SlotsArray()
     {
         List<string> slotsPossible = new List<string> { "1", "2", "3", "4", "5", "6", "7", "8", "9"}; // ths thr ting that hads the options for the slot machine

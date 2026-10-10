@@ -2,21 +2,43 @@
 
 [ext_resource type="Script" uid="uid://docfi7cdkq1nc" path="res://slotsA.cs" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://dob0e5kr2016n" path="res://icon.svg" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://2mhrgvl81kqq" path="res://Camera2d.cs" id="3_epypp"]
 
 [node name="Node2D" type="Node2D" unique_id=1067305938]
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=2033564093]
-position = Vector2(434, 145)
+position = Vector2(117, 382)
 texture = ExtResource("1_wtcfe")
 
 [node name="SlotsA" type="Node2D" parent="." unique_id=1089414468]
+position = Vector2(-1, 0)
 script = ExtResource("1_0e48y")
 
 [node name="Button" type="Button" parent="." unique_id=1102262681]
-offset_left = 584.0
-offset_top = 92.0
-offset_right = 805.0
-offset_bottom = 206.0
+offset_left = 207.0
+offset_top = 324.0
+offset_right = 428.0
+offset_bottom = 438.0
 text = "GAMBA!!!!"
 
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1587725639]
+position = Vector2(576, 324)
+script = ExtResource("3_epypp")
+
+[node name="Icon2" type="Sprite2D" parent="." unique_id=1261106887]
+position = Vector2(313, -183)
+texture = ExtResource("1_wtcfe")
+
+[node name="Icon3" type="Sprite2D" parent="." unique_id=1708022335]
+position = Vector2(559, -364)
+texture = ExtResource("1_wtcfe")
+
+[node name="Button2" type="Button" parent="." unique_id=287964059]
+offset_left = 826.0
+offset_top = 316.0
+offset_right = 998.0
+offset_bottom = 453.0
+text = "click me to move camera!"
+
 [connection signal="pressed" from="Button" to="SlotsA" method="SlotsArray"]
+[connection signal="pressed" from="Button2" to="Camera2D" method="_on_button_2_pressed"]
