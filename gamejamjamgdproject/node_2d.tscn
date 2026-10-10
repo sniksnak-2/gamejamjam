@@ -2,17 +2,54 @@
 
 [ext_resource type="Script" uid="uid://docfi7cdkq1nc" path="res://slotsA.cs" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://dob0e5kr2016n" path="res://icon.svg" id="1_wtcfe"]
+<<<<<<< Updated upstream
 [ext_resource type="Script" uid="uid://2mhrgvl81kqq" path="res://Camera2d.cs" id="3_epypp"]
+=======
+[ext_resource type="Texture2D" uid="uid://bu7ba7v53mret" path="res://Assets/aple.png" id="3_d21ai"]
+[ext_resource type="Texture2D" uid="uid://bpel5aijchw7e" path="res://Assets/awtermelen.png" id="4_rj586"]
+[ext_resource type="Texture2D" uid="uid://1w8k4ipji0j" path="res://Assets/banaaa.png" id="5_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://darc7ehjax76f" path="res://Assets/grpaes.png" id="6_ir8iy"]
+[ext_resource type="Texture2D" uid="uid://dfuq2cvbws3fn" path="res://Assets/stawrbr.png" id="7_hqns4"]
+>>>>>>> Stashed changes
 
 [node name="Node2D" type="Node2D" unique_id=1067305938]
 
 [node name="Icon" type="Sprite2D" parent="." unique_id=2033564093]
+<<<<<<< Updated upstream
 position = Vector2(117, 382)
+=======
+position = Vector2(318, 145)
+>>>>>>> Stashed changes
 texture = ExtResource("1_wtcfe")
 
 [node name="SlotsA" type="Node2D" parent="." unique_id=1089414468]
 position = Vector2(-1, 0)
 script = ExtResource("1_0e48y")
+
+[node name="aple" type="Sprite2D" parent="SlotsA" unique_id=762632508]
+position = Vector2(358.9375, 770.5)
+scale = Vector2(0.26486787, 0.26991144)
+texture = ExtResource("3_d21ai")
+
+[node name="awtermelen" type="Sprite2D" parent="SlotsA" unique_id=1470076537]
+position = Vector2(-211.18748, 408.125)
+scale = Vector2(0.21273579, 0.26932344)
+texture = ExtResource("4_rj586")
+
+[node name="banaaa" type="Sprite2D" parent="SlotsA" unique_id=169221541]
+position = Vector2(230.00002, 770.5)
+scale = Vector2(0.15044248, 0.23954374)
+texture = ExtResource("5_4d7sh")
+
+[node name="grpaes" type="Sprite2D" parent="SlotsA" unique_id=626827252]
+position = Vector2(100, 753)
+scale = Vector2(0.2792793, 0.2792793)
+texture = ExtResource("6_ir8iy")
+
+[node name="stawrbr" type="Sprite2D" parent="SlotsA" unique_id=1051761892]
+position = Vector2(-228.12498, 586.0625)
+scale = Vector2(0.33096576, 0.33589402)
+texture = ExtResource("7_hqns4")
 
 [node name="Button" type="Button" parent="." unique_id=1102262681]
 offset_left = 207.0
@@ -21,6 +58,7 @@ offset_right = 428.0
 offset_bottom = 438.0
 text = "GAMBA!!!!"
 
+<<<<<<< Updated upstream
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1587725639]
 position = Vector2(576, 324)
 script = ExtResource("3_epypp")
@@ -34,3 +72,6 @@ text = "click me to move camera!"
 
 [connection signal="pressed" from="Button" to="SlotsA" method="SlotsArray"]
 [connection signal="pressed" from="Button2" to="Camera2D" method="_on_button_2_pressed"]
+=======
+[connection signal="pressed" from="Button" to="SlotsA" method="ButtonHandler"]
+>>>>>>> Stashed changes
