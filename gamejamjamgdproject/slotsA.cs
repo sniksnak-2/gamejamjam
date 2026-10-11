@@ -9,29 +9,9 @@ public partial class slotsA : Node2D
 	{
 		GD.Print("Hello World");
 		
-<<<<<<< Updated upstream
 	} 
-    // what i want is code that will turn a given array into an array with 
-    public List<string> SlotsArray()
-    {
-        List<string> slotsPossible = new List<string> { "1", "2", "3", "4", "5", "6", "7", "8", "9"}; // ths thr ting that hads the options for the slot machine
-		RandomNumberGenerator rng = new RandomNumberGenerator();
-        List<string> gambaResult1 = new List<string> { };
-        List<string> gambaResult2 = new List<string> { };
-        List<string> gambaResult3 = new List<string> { };
-        List<string> gambaResultTotal = new List<string> { };
-        for (int i=0; i < 3; i++)
-            for (int j = 0; j < 3; j++)
-            {
-                int random = rng.RandiRange(0, slotsPossible.Count-1);
-                gambaResult1.Add(slotsPossible[random]);
-                slotsPossible.RemoveAt(random);
-            }
-        GD.Print(string.Join("-", gambaResult1), "~", string.Join("-", gambaResult2), "~", string.Join("-", gambaResult3));
-        return gambaResultTotal;
-    }
-=======
-	}
+    List<int> JackpotTally = new List<int> {0, 0};
+	
     public void DisplaySlots(List<string> FinalSlots)
     {
         List<Vector2> Positions = new List<Vector2> {new Vector2(295, 315), new Vector2(295, 395), new Vector2(295, 475), new Vector2(365, 315), new Vector2(365, 395), new Vector2(365, 475), new Vector2(445, 315), new Vector2(445, 395), new Vector2(445, 475) };
@@ -48,8 +28,8 @@ public partial class slotsA : Node2D
     public List<string> SlotsList(List<string> slots)
     {
         Godot.RandomNumberGenerator rng = new Godot.RandomNumberGenerator();
-        List<string> slotOptions = new List<string> { "aple", "banaaa", "grpaes", "stawrbr", "awtermelen"};
-        List<string> slotOptionsConstant = new List<string> { "aple", "banaaa", "grpaes", "stawrbr", "awtermelen"};
+        List<string> slotOptions = new List<string> { "aple", "banaaa", "grpaes", "stawrbr"};
+        List<string> slotOptionsConstant = new List<string> { "aple", "banaaa", "grpaes", "stawrbr"};
 
         List<string> gambaResult = new List<string> {};
         for (int i = 0; i < 9; i++)
@@ -108,7 +88,6 @@ public partial class slotsA : Node2D
                 }
             }
         }
-		GD.Print(string.Join("-", gambaResult));
         return gambaResult;
     }
 	public List<string> CallSlots()
@@ -121,9 +100,6 @@ public partial class slotsA : Node2D
         List<string> slotsColumn2 = slotReturn.GetRange(3, 3);
         List<string> slotsColumn3 = slotReturn.GetRange(6, 3);
         List<string> FinalSlots = new List<string> { };
-        GD.Print(string.Join("-", slotsColumn1));
-        GD.Print(string.Join("-", slotsColumn2));
-        GD.Print(string.Join("-", slotsColumn3));
         for (int i=0; i<DeleteSprites.Count-1; i++)
         {
             Sprite2D Sprite = DeleteSprites[i];
@@ -157,17 +133,18 @@ public partial class slotsA : Node2D
             if (currentCheck == FinalSlots[Matches[i][0]] && currentCheck == FinalSlots[Matches[i][1]] && currentCheck == FinalSlots[Matches[i][2]])
             {
                 GD.Print("JACKPOT");
+                JackpotTally[1] = JackpotTally[1] + 1;
             }
         }
-        GD.Print(string.Join(' ', FinalSlots));
         DisplaySlots(FinalSlots);
+        GD.Print(JackpotTally[0], ":", JackpotTally[1]);
         return FinalSlots;
 	}
     public void ButtonHandler()
     {
         CallSlots();
+        JackpotTally[0] = JackpotTally[0] + 1;
     }
->>>>>>> Stashed changes
 
     public override void _Process(double delta)
 	{
